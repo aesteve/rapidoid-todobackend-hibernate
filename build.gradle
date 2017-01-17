@@ -1,0 +1,11 @@
+plugins {
+	id 'java'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.rapidoid:rapidoid-quick:5.2.8'
+}

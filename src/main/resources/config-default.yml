@@ -1,0 +1,17 @@
+jdbc:
+  driver: org.hsqldb.jdbc.JDBCDriver
+  url: jdbc:hsqldb:mem:public
+  username: sa
+  password: ''
+
+hibernate:
+  dialect: org.hibernate.dialect.HSQLDialect
+  connection:
+    driver_class: org.hsqldb.jdbc.JDBCDriver
+    url: jdbc:hsqldb:mem:public
+    username: sa
+    password: ''
+  format_sql: true
+  show_sql: true
+  hbm2ddl:
+    auto: create
